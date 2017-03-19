@@ -1,7 +1,7 @@
 /**
  * Created by Alamin on 2017-01-28.
  */
-export class NestedObject
+class NestedObject
 {
     constructor() {
         this.objectKey = 'name';
@@ -38,3 +38,5 @@ export class NestedObject
         }
     }
 }
+
+module.exports = NestedObject;
